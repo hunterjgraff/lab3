@@ -1,0 +1,17 @@
+h1 {color: black;
+	font-size: 10px;
+    padding: 20px
+}
+.sig {width: 350px;
+        border: 25px solid white;
+}
+div {background-color #000;
+}
+p {font-family: sans-serif, arial;
+    font-size: 1em;
+    width: 400px;
+}
+.wrapper {max-width:500px; margin: auto;
+}
+hr {size=50px;
+}
