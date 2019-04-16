@@ -477,8 +477,9 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 80%;
+  height: auto; 
+    padding: auto;
 }
 
 .img-thumbnail {
@@ -487,7 +488,7 @@ mark,
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
-  height: auto;
+  height: auto; 
 }
 
 .figure {
@@ -565,15 +566,15 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 80%) {
   .container {
-    max-width: 960px;
+    max-width: 30%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 80%) {
   .container {
-    max-width: 1140px;
+    max-width: 30%;
   }
 }
 
@@ -10002,7 +10003,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .container {
-    min-width: 992px !important;
+    min-width: 500px !important; margin: auto
   }
   .navbar {
     display: none;
